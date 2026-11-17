@@ -1,0 +1,1 @@
+{"approval":"P-8","events":[{"version":"v1","kind":"holder_transfer","effective":"2025-10-01","prior_holder":"企业乙","holder":"企业甲"},{"version":"v2","kind":"spec_change","effective":"2026-02-01","field":"spec","from":"0.5g","to":"0.4g"}]}

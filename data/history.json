@@ -1,0 +1,150 @@
+{
+  "allowed_origins": [
+    "https://registry.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/catalog",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "catalog.bin",
+        "status": 200,
+        "bytes": 443,
+        "sha256": "2db5bdcbaace0749a65ff632fef431b6e09d1d5ae6a9a16dd82bd7879f54703c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-8",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "detail-p8.bin",
+        "status": 200,
+        "bytes": 389,
+        "sha256": "6b772d2f2fa2dc1100aeecebe9ae9d4da8c130440ef127e2202dbb807aa60643"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-8/changes",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "changes-p8.bin",
+        "status": 200,
+        "bytes": 248,
+        "sha256": "a9cbe17046f59bacd1afffb6fe2cff7cb2262efc4426fe18ebd57c33f918afa0"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-8/attachments/A-P8-v3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attach-p8-v3.bin",
+        "status": 200,
+        "bytes": 264,
+        "sha256": "e1ccd06a43c297532f3e1136a890bd3fa97f2491055cfb6a4dbf9f5f8badf771"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-9",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "detail-p9.bin",
+        "status": 200,
+        "bytes": 275,
+        "sha256": "aa129de8dceb14e188dbdc3c6ccb9dfcf48ca3c25d724f802a00c46eb3733c71"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-9/changes",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "changes-p9.bin",
+        "status": 200,
+        "bytes": 140,
+        "sha256": "ae49ff738aa0bcf6ef2153384704d8df76021e3e0c3e93af79dfc08016e2cc18"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-9/attachments/A-P9-v2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "attach-p9-v2.bin",
+        "status": 200,
+        "bytes": 259,
+        "sha256": "5028ee01d439ef0a207d0d9f1603423eab491d3bc89674774df804bddbd47c0b"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/approvals/P-OLD-8/redirect",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "redirect-p8old.bin",
+        "status": 200,
+        "bytes": 155,
+        "sha256": "877e608d135f54c6fd1a692fb77e2bbcdfb872f94aa898aaec599f3be7cb1622"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/approvals/P-OLD-10/redirect",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "redirect-p10old.bin",
+        "status": 200,
+        "bytes": 157,
+        "sha256": "d1779c6322ad56b55a963e0e39ea4d3516892b72b74cea91b5053c653e67f456"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-11",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "detail-p11.bin",
+        "status": 200,
+        "bytes": 242,
+        "sha256": "2a67ffd5b1c9116bec7fd54950737049bbeb7fdfa25cbef0ef49fb09da73a66c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/inspections/clues",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "clues.bin",
+        "status": 200,
+        "bytes": 593,
+        "sha256": "32ffdcd7efc614ca7148dd944850e4c275b91491cb22702911ac0e8be730bed5"
+      }
+    }
+  ]
+}
