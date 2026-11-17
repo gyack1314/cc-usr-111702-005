@@ -11,3 +11,5 @@ Python 3.11 以上；在项目根目录执行：
     python -m capture_service.cli inspect data/normal.json
 
 Dockerfile 提供 Linux 环境；docker build -t registration-history . 构建，docker run --rm registration-history 运行样例。
+
+现有目录只接收详情和一条变更事件，无法由这两个片段证明此前全部登记沿革。
