@@ -1,0 +1,11 @@
+{
+  "approval": "P-8",
+  "events": [
+    {
+      "version": "v1",
+      "kind": "holder_transfer",
+      "effective": "2025-10-01",
+      "prior_holder": "企业乙"
+    }
+  ]
+}

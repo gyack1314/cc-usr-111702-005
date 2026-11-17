@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://registry.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-8",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 158,
+        "sha256": "c54eb2c0d8b1f52ea2ed3dcd054224c0bfd96c3dbf71a5c65d5d68d6ee5e2dc9"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://registry.example.test/products/P-8",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 158,
+        "sha256": "ef567a97e0239eb1c04f67d58a318515f0562b4b844baf37dcb37e10e19c5020"
+      }
+    }
+  ]
+}
